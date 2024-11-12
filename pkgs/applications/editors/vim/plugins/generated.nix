@@ -1044,7 +1044,7 @@ final: prev:
       owner = "yetone";
       repo = "avante.nvim";
       rev = "54896bbc2d9dbebaace86fa8e3e009a796414035";
-      sha256 = "";
+      sha256 = "sha256-Vo6+6YsjvFCmUgxi0Hb8YSG1SXju2n0qF5G17A33+Ns=";
     };
     meta.homepage = "https://github.com/yetone/avante.nvim/";
   };
