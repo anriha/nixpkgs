@@ -1039,12 +1039,12 @@ final: prev:
 
   avante-nvim = buildVimPlugin {
     pname = "avante.nvim";
-    version = "2024-11-05";
+    version = "2024-11-12";
     src = fetchFromGitHub {
       owner = "yetone";
       repo = "avante.nvim";
-      rev = "9fbe0256f277a940fa61dce127129c1e8a3916a0";
-      sha256 = "0shpbjf3cnlw7icrabah4q077rn110gdw5bc9hif1dwf7wdffhvc";
+      rev = "54896bbc2d9dbebaace86fa8e3e009a796414035";
+      sha256 = "";
     };
     meta.homepage = "https://github.com/yetone/avante.nvim/";
   };
