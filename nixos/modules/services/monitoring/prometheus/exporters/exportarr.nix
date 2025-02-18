@@ -12,7 +12,7 @@ let
   exportarrEnvironment = (lib.mapAttrs (_: toString) cfg.environment) // {
     PORT = toString cfg.port;
     URL = cfg.url;
-    API_KEY_FILE = lib.mkIf (cfg.apiKeyFile != null) "%d/api-key";
+    API_KEY_FILE = lib.mkIf (cfg.apiKeyFile != null) "$CREDENTIALS_DIRECTORY/api-key";
   };
 in
 {
